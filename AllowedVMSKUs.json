@@ -7,7 +7,7 @@
         },
         {
           "field": "Microsoft.Web/serverfarms/properties.tags",
-          "contains": "dev"
+          "contains": "env:dev"
         },
         {
           "not": {
