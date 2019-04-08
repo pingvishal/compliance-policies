@@ -6,16 +6,9 @@
           "equals": "Microsoft.Web/serverfarms"
         },
         {
-          "field": "Microsoft.Web/serverfarms/properties.tags",
-          "contains": "env:dev"
-        },
-        {
           "not": {
             "field": "Microsoft.Web/serverfarms/sku.name",
-            "in": [
-              "B1",
-              "A1"
-            ]
+            "in": [parameters(listOfAllowedVMSKUs)]
           }
         }
       ]
