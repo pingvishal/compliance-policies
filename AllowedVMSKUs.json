@@ -8,7 +8,7 @@
       {
         "not": {
           "field": "Microsoft.Web/serverfarms/sku.name",
-          "in": ["A1", "B1"]
+          "in": "[parameters('listOfAllowedVMSKUs')]"
         }
       }
     ]
