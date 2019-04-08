@@ -1,5 +1,4 @@
 {
-  "policyRule": {
     "if": {
       "allOf": [
         {
@@ -20,5 +19,4 @@
     "then": {
       "effect": "audit"
     }
-  }
 }
