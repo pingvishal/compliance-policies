@@ -5,13 +5,13 @@
         "field": "type",
         "equals": "Microsoft.Web/serverfarms"
       },
-      {
+      "not": {
         "field": "Microsoft.Web/serverfarms/sku.name",
         "in": "['A1', 'B1']"
       }
     ]
   },
   "then": {
-    "effect": "audit"
+    "effect": "deny"
   }
 }
