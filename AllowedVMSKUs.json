@@ -6,6 +6,10 @@
           "equals": "Microsoft.Web/serverfarms"
         },
         {
+          "field": "Microsoft.Web/serverfarms/properties.tags",
+          "contains": "dev"
+        },
+        {
           "not": {
             "field": "Microsoft.Web/serverfarms/sku.name",
             "in": [
