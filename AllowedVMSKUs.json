@@ -6,10 +6,8 @@
           "equals": "Microsoft.Web/serverfarms"
         },
         {
-          "not": {
-            "field": "Microsoft.Web/serverfarms/sku.name",
-            "in": [parameters(listOfAllowedVMSKUs)]
-          }
+          "field": "Microsoft.Web/serverfarms/sku.name",
+          "in": "[parameters(listOfAllowedVMSKUs)]"
         }
       ]
     },
