@@ -14,16 +14,11 @@
               "A1"
             ]
           }
-        },
-        {
-          "field": "type",
-          "equals": "Microsoft.Resources/subscriptions/resourceGroups"
-          "in": "[parameters('resourceGroupName')]"
         }
       ]
     },
     "then": {
-      "effect": "Audit"
+      "effect": "Deny"
     }
   }
 }
