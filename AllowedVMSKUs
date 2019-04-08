@@ -17,7 +17,8 @@
         },
         {
           "field": "type",
-          "equals": "[parameters('resourceGroupName')]"
+          "equals": "Microsoft.Resources/subscriptions/resourceGroups"
+          "in": "[parameters('resourceGroupName')]"
         }
       ]
     },
