@@ -7,7 +7,7 @@
       },
       {
         "field": "Microsoft.Web/serverfarms/sku.name",
-        "in": "[parameters(listOfAllowedVMSKUs)]"
+        "in": "['A1', 'B1']"
       }
     ]
   },
