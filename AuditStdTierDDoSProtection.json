@@ -1,5 +1,4 @@
 {
-  "policyRule": {
     "if": {
       "field": "type",
       "equals": "microsoft.network/virtualNetworks"
@@ -20,5 +19,4 @@
         }
       }
     }
-  }
 }

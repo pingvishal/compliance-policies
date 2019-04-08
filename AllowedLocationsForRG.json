@@ -1,5 +1,4 @@
 {
-  "policyRule": {
     "if": {
       "allOf": [
         {
@@ -15,5 +14,4 @@
     "then": {
       "effect": "deny"
     }
-  }
 }
