@@ -1,0 +1,8 @@
+{
+	"listOfAllowedVMSKUs": {
+		"value": [
+	           "DS1",
+	           "S1"
+            	]
+       }
+}
