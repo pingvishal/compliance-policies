@@ -3,7 +3,7 @@
       "allOf": [
         {
           "field": "location",
-          "notIn": [parameters('listofAllowedLocations')]
+          "notIn": "[parameters('listofAllowedLocations')]"
         },
         {
           "field": "type",
