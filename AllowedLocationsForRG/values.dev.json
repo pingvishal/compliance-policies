@@ -1,7 +1,7 @@
 {
     "listofAllowedLocations": {
         "value": [
-            "eastus2",
+            "eastus",
             "westus"
         ]
     }
